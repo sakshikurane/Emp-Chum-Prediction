@@ -6,7 +6,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Safely load the trained model with error handling
-MODEL_PATH = "naive.pkl"
+MODEL_PATH = "navie.pkl"
 model = None
 
 if os.path.exists(MODEL_PATH):
